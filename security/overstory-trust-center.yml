@@ -1,0 +1,20 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.overstory.com/security
+url: https://www.overstory.com/security
+certifications:
+- SOC 2 Type I
+compliance_monitoring:
+- vendor: Vanta
+  note: Controls continuously monitored and assessed via Vanta automated security and compliance platform.
+security_practices:
+- Infrastructure built on Google Cloud Platform (GCP)
+- Encryption in transit and at rest enabled by default with periodic key rotation
+- Least-privilege access model
+- Routine threat modeling, peer reviews, and security audits
+- Automated security scanning
+contact:
+- security@overstory.com
+evidence:
+- source: https://www.overstory.com/security
+  keywords: [soc 2 type i, vanta, security]

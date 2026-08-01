@@ -1,7 +1,27 @@
 aid: overstory
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/overstory.png
 name: Overstory
-description: Overstory is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Overstory provides AI-powered vegetation intelligence for electric utilities and
+  grid operators. The platform fuses high-resolution satellite and aerial imagery with
+  machine learning to detect vegetation encroachment, hazard trees, and wildfire risk
+  along power line corridors, helping utilities prioritize trimming, optimize
+  vegetation management spend, and improve grid reliability (SAIDI). Overstory was
+  founded as 20tree.ai and surfaced in the API Evangelist network as a Techstars
+  portfolio company. As of this profile the company delivers its intelligence through
+  a customer platform and services rather than a public developer API; no public API
+  documentation, OpenAPI, or developer portal was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/overstory/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +31,42 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Vegetation Management
+- Satellite Imagery
+- Geospatial
+- Artificial Intelligence
+- Utilities
+- Wildfire Risk
+- Grid Reliability
+- Remote Sensing
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
 common:
 - type: Website
-  url: https://20tree.ai/
+  url: https://www.overstory.com/
+- type: Blog
+  url: https://www.overstory.com/blog
+- type: Security
+  url: https://www.overstory.com/security
+- type: Compliance
+  url: https://www.overstory.com/security
+- type: PrivacyPolicy
+  url: https://www.overstory.com/privacy-policy
+- type: Support
+  url: mailto:support@overstory.com
+- type: DomainSecurity
+  url: security/overstory-domain-security.yml
+- type: TrustCenter
+  url: security/overstory-trust-center.yml
